@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
-import Timeline from './Components/Timeline';
+import "@material-tailwind/react/tailwind.css";
+import Button from "@material-tailwind/react/Button";
 
 function App() {
+    const [openNavbar, setOpenNavbar] = useState(false);
     return (
         <div className="App">
-            <Timeline/>
+            <Button color="lightBlue" ripple="light">Button</Button>
         </div>
     );
 }
