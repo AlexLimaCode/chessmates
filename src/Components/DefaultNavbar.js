@@ -14,8 +14,8 @@ const DefaultNavbar = () => {
     const [openNavbar, setOpenNavbar] = useState(false);
 
     return (
-        <Navbar className={"bg-gray-400 lg:bg-gray-400 md:bg-stone-500 sm:bg-orange-500 "} color="none" navbar>
-        <NavbarContainer>
+        <Navbar className={"bg-black"} color="none" navbar>
+        <NavbarContainer style={{marginBottom: "0px"}}>
             <NavbarWrapper>
                 <NavbarBrand>Navbar</NavbarBrand>
                 <NavbarToggler
