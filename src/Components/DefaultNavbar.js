@@ -9,6 +9,7 @@ import NavbarCollapse from '@material-tailwind/react/NavbarCollapse';
 import Nav from '@material-tailwind/react/Nav';
 import NavLink from '@material-tailwind/react/NavLink';
 import NavItem from "@material-tailwind/react/NavItem";
+import { FaDiscord, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const DefaultNavbar = () => {
     const [openNavbar, setOpenNavbar] = useState(false);
@@ -17,7 +18,7 @@ const DefaultNavbar = () => {
         <Navbar className={"bg-black"} color="none" navbar>
         <NavbarContainer style={{marginBottom: "0px"}}>
             <NavbarWrapper>
-                <NavbarBrand>Navbar</NavbarBrand>
+                <NavbarBrand>ChessMates</NavbarBrand>
                 <NavbarToggler
                     color="white"
                     onClick={() => setOpenNavbar(!openNavbar)}
@@ -27,9 +28,9 @@ const DefaultNavbar = () => {
 
             <NavbarCollapse open={openNavbar}>
                 <Nav>
-                    <NavItem active="light" ripple="light">Discover</NavItem>
-                    <NavLink href="#navbar" ripple="light">Profile</NavLink>
-                    <NavItem ripple="light">Settings</NavItem>
+                    <NavLink href="https://discord.gg/tM6x7ttv" ripple="light"><FaDiscord size={25}/></NavLink>
+                    <NavLink href="https://instagram.com/cheesematesnft?utm_medium=copy_link" ripple="light"><FaInstagram size={25}/></NavLink>
+                    <NavLink href="https://twitter.com/cheesematesnft?s=21&t=cTT8UfG-BcPvj3oJFAMqeA" ripple="light"><FaTwitter size={25}/></NavLink>
                 </Nav>
             </NavbarCollapse>
         </NavbarContainer>

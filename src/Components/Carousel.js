@@ -32,7 +32,7 @@ const Carousel = (props) => {
                     );
                 })}
             </div>
-            <div class="carousel-inner relative w-full overflow-hidden">
+            <div class="carousel-inner relative w-full overflow-hidden" style={{ alignItems: "center"}}>
                 {content.map((e, index) =>{
                     return (
                         index === 0 ? (
@@ -41,6 +41,7 @@ const Carousel = (props) => {
                                     src={e.image}
                                     class="block w-full"
                                     alt={e.alt}
+                                    style = {{ height: "300px", width: "300px"}}
                                 />
                             </div>
                         ):(
@@ -49,6 +50,7 @@ const Carousel = (props) => {
                                     src={e.image}
                                     class="block w-full"
                                     alt={e.alt}
+                                    style = {{ height: "300px", width: "100%"}}
                                 />
                             </div>
                         )
