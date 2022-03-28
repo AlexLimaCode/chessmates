@@ -22,8 +22,8 @@ function App() {
                 <HeroSection />
                 <About />
                 <RoadMap />
-                <SwiperExample />
                 <Team/>
+                <SwiperExample />
             </div>
             <Footer/>
         </div>

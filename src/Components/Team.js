@@ -6,7 +6,7 @@ const Team = () => {
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-10">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Our Team</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white">Algun texto chingon de chessmates...</p>
+                {/* <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white">Algun texto chingon de chessmates...</p> */}
             </div>
             <div class="flex flex-wrap -m-2">
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
@@ -54,7 +54,7 @@ const Team = () => {
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80"/>
                         <div class="flex-grow">
                             <h2 class="text-white title-font font-medium">Alejandro Lima</h2>
-                            <p class="text-gray-500">Web Developer</p>
+                            <p class="text-gray-500">Web & Blockchain Developer</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const Team = () => {
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80"/>
                         <div class="flex-grow">
                             <h2 class="text-white title-font font-medium">Oscar Robles</h2>
-                            <p class="text-gray-500">Web Developer</p>
+                            <p class="text-gray-500">Web & Blockchain Developer</p>
                         </div>
                     </div>
                 </div>
