@@ -16,7 +16,7 @@ const RoadMap = () => {
             >
                 <h1 className="vertical-timeline-element-title">Governance</h1>
                 <p>
-                All holders will have rights to participate in the crucial decisions of the collection, votation will take place on the oficial discord server. Community must be listended!
+                All holders will have rights to participate in the crucial decisions of the collection, votation will take place on the oficial Discord server. Community must be listened!
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -28,7 +28,7 @@ const RoadMap = () => {
             >
                 <h3 className="vertical-timeline-element-title">CMerch</h3>
                 <p>
-                High quality clothing line created by our designers. Holders will be rewarded with chronological points for discounts of Merch.
+                High quality clothing line created by our designers. Holders will be rewarded with chronological points for merch discounts.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -40,7 +40,7 @@ const RoadMap = () => {
             >
                 <h3 className="vertical-timeline-element-title">Bridge between digital and physical objects</h3>
                 <p>
-                Signed and framed prints of your CheeseMates NFT. Tangible objects ítems as merch, frames or wherever you want to print your NFT.
+                Signed and framed prints of your CheeseMates NFT. Tangible objects items as merch, frames or wherever you want to print your NFT.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -52,7 +52,7 @@ const RoadMap = () => {
             >
                 <h3 className="vertical-timeline-element-title">Support and charity to Young Chess players</h3>
                 <p>
-                The team after 3rd phase, will donate ETH to Young chessplayers with the goal of helping athletes in progression. All the journey will be documented and poste don social media.
+                The team after 3rd phase, will donate ETH to Young chessplayers with the goal of helping athletes in progression. All the journey will be documented and posted on social media.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

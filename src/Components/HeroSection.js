@@ -3,7 +3,7 @@ import video from '../videos/test.mp4'
 
 function HeroSection () {
   return (
-    <div>
+    <div className='w-full flex justify-center object-cover'>
       {/* <video className="w-full object-cover -mt-3" autoplay="autoplay" muted loop="loop" webkit-playsinlin playsinline oncontextmenu="return false;" preload="auto">
         <source src={video} type="video/mp4" />
       </video> */}
