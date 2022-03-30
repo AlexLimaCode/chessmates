@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import Carousel from './Carousel';
 import Rey1 from '../images/Rey1.jpeg';
-import Queen1 from '../images/Queen1.jpeg';
-import QueenKing from '../images/QueenKing.jpeg';
+import Bannerreyes from '../images/bannerreyes.png';
 
 const About = () => {
 
@@ -15,22 +14,9 @@ const About = () => {
         }
     }
     return (
-//         <div className="container mx-auto px-6 pt-6 pb-6">
-//             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 md:grid-cols-2">
-//                 <div>
-//                     <h1 className="text-white text-6xl mb-4">ChessMates</h1>
-//                     <p className="text-white text-justify">CheeseMates is a delightful ChessMade art with an initial drop of 2000 unique NFTs (King & Queen) based on Ethereum Network.
-// The Project believes in the fusion of 2 amazing communities(NFT & Chess) and spread knowledge, love and positivity between them and the whole world.
-// Combining the physical and digital worlds in a way the Brand connect people from all around the globe and create strong friendships.</p>
-//                 </div>
-//                 <div className="flex justify-items-center items-center">
-//                     <img src={Rey1} className="max-w-full rounded-lg lg:h-80"/>
-//                 </div>
-//             </div>
-//         </div>
 <section class="bg-black">
             <div class="container px-6 py-10 mx-auto">
-                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br/> awesome Components</h1>
+                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">About us</h1>
                 
                 <div class="mt-2">
                     <span class="inline-block w-40 h-1 rounded-full bg-black"></span>
@@ -83,7 +69,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="hidden lg:flex lg:w-1/2 lg:justify-center">
+                    <div class="lg:flex lg:w-1/2 lg:justify-center">
                         <img class="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src={Rey1} alt="" />
                     </div>
                 </div>

@@ -2,6 +2,19 @@ import React, {useState} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination} from 'swiper';
 import 'swiper/css/pagination';
+import Rey1 from '../images/Rey1.jpeg';
+import Queen from '../images/Queen.png';
+import Anillo from '../images/anillo.png';
+import Arete from '../images/arete.png';
+import Aretee from '../images/aretee.png';
+import Bannerreyes from '../images/bannerreyes.png';
+import Cadena from '../images/cadena.png';
+import Capaa from '../images/capaaa.png';
+import Collar from '../images/collar.png';
+import Coronaa from '../images/coronaa.png';
+import Flores from '../images/flores.png';
+import Ojos from '../images/ojos.png';
+import Pul from '../images/pul.png';
 
 
 const SwiperExample = () => {
@@ -17,31 +30,31 @@ const SwiperExample = () => {
             className="mySwiper"
         >
             <SwiperSlide>
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" />
+                <img src={Coronaa} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Collar} className="rounded-xl"  />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Pul} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Aretee} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Cadena} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Ojos} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Flores} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Arete} className="rounded-xl" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+                <img src={Anillo} className="rounded-xl" />
             </SwiperSlide>
       </Swiper>
     );
