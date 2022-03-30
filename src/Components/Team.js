@@ -15,7 +15,7 @@ const Team = () => {
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Rey1}/>
                         <div class="flex flex-col justify-around items-center w-full">
-                            <h2 class="text-white title-font font-medium">Rodkinin</h2>
+                            <h2 class="text-white title-font font-medium">Rodokinin</h2>
                             <p class="text-gray-500">Founder/Visionary and Public Relations</p>
                             <p className="text-white font-light text-xs">Passionate in Cryptospace, business direction and team leadership, sometimes Chess player</p>
                             <a href="https://twitter.com/rodovillanuevaa?s=21&t=oXhnnFVvdMueffJA0pZfwQ" class="hover:animate-bounce">
@@ -28,7 +28,7 @@ const Team = () => {
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Queen1}/>
                         <div class="flex flex-col justify-around items-center w-full">
-                            <h2 class="text-white title-font font-medium">Dianj</h2>
+                            <h2 class="text-white title-font font-medium">Diani</h2>
                             <p class="text-gray-500">Advisor</p>
                             <p className="text-white font-light text-xs">Master in businesses, years of experience in cryptospace, International Master in Chess.</p>
                             <a href="https://twitter.com/dianareal?s=21&t=xjv00BS51QbMOQ9xmlwHRg" class="hover:animate-bounce">
